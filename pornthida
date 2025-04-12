@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แนะนำสถานที่ท่องเที่ยวในลำปาง</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            background-color: #1a1a2e;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        .jumbotron {
+            background-image: url('images/ดอยฟ้างาม.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        .jumbotron h1 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .container h3 {
+            color: #ffcc00;
+            text-align: center;
+            font-weight: 700;
+        }
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .content-box a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+        .content-box:hover {
+            transform: scale(1.05);
+        }
+        .content-box img {
+            width: 100%;
+            height: 200px; /* กำหนดความสูงให้เท่ากัน */
+            object-fit: cover; /* ป้องกันการบิดเบือนรูป */
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>แนะนำสถานที่ท่องเที่ยวในลำปาง</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="content-box">
+                    <a href="https://www.google.co.th/maps/place/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%8B%E0%B9%89%E0%B8%AD%E0%B8%99/data=!4m2!3m1!1s0x30d996bb07cc9469:0xa0134b9c86cbb300?sa=X&ved=1t:155783&ictx=111" target="_blank">
+                        <h3>อุทยานแห่งชาติแจ้ซ้อน</h3>
+                        <img src="images/แจ้ช้อน.jpg" alt="อุทยานแห่งชาติแจ้ซ้อน">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content-box">
+                    <a href="https://www.google.co.th/maps/place/Wat+Chaloem+Phra+Kiat+(Wat+Phra+Phutthabat+Sutthawat)/@18.7463333,99.5297498,17z/data=!3m1!4b1!4m6!3m5!1s0x30d999b6bc3231c1:0x605b7e8b8d7decaa!8m2!3d18.7463333!4d99.5323247!16s%2Fg%2F11f8f28d73?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        <h3>วัดเฉลิมพระเกียรติ</h3>
+                        <img src="images/วัดเฉลิมพระเกียรติ.jpg" alt="วัดเฉลิมพระเกียรติ">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content-box">
+                    <a href="https://www.google.co.th/maps/place/Kiew+Lom+Dam/@18.5232393,99.6201533,17z/data=!3m1!4b1!4m6!3m5!1s0x30d90a2fb21156b9:0x27f63e6c55263ef8!8m2!3d18.5232394!4d99.6250242!16s%2Fg%2F12216532?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        <h3>เขื่อนกิ่วลม</h3>
+                        <img src="images/เขื่อนกิ่วลม.jpg" alt="เขื่อนกิ่วลม">
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="content-box">
+                    <a href="https://www.google.co.th/maps/place/%E0%B8%88%E0%B8%B8%E0%B8%94%E0%B8%8A%E0%B8%A1%E0%B8%A7%E0%B8%B4%E0%B8%A7+%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%B2%E0%B8%A1/@18.6158206,99.588624,17z/data=!3m1!4b1!4m6!3m5!1s0x30d9a10734e76db9:0x878ef33dd1dd1b90!8m2!3d18.6158206!4d99.5911989!16s%2Fg%2F11f327bs62?entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        <h3>ดอยฟ้างาม</h3>
+                        <img src="images/ดอยฟ้างาม จ_ลำปาง.jpg" alt="ดอยฟ้างาม">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
